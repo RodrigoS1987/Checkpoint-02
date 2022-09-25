@@ -5,6 +5,7 @@
 .cabeçalho {
     z-index: 1;
     position: fixed;
+    box-sizing: border-box;
     width: 100%;
     font-size: 20px;
     background-color: rgba(0, 0, 0, 0.721);
@@ -39,18 +40,25 @@
     font-size: large !important;
 }
 
+.imagem-fundo {
+    height: 100vh;
+    width: 100%;
+
+}
+
 /* sessão principal */
 
 .sessao-principal {
     justify-content: center;
-    background-color: #4c4c4c;
-    min-height: 100vh;
+    /* background-color: #4c4c4c; */
+    background-color: #000000;
 }
+
 
 .card {
     width: 290px;
     height: 460px;
-    background-color: #090909 !important;
+    background-color: #1f1f1f !important;
     color: aliceblue !important;
 }
 
@@ -64,9 +72,9 @@
 }
 
 .sessao-series {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
     gap: 15px;
     padding-bottom: 25px;
 
@@ -88,10 +96,10 @@
     /* width: 280px; */
     height: 300px;
 }
-    
+
 .btn-primary {
     background-color: #980000 !important;
-    margin: 10px  65px;
+    margin: 10px 65px;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -162,4 +170,19 @@
     color: #fff9f9;
     background: #0f0f0fec;
 
+}
+
+@media(max-width:768px) {
+
+    .cabeçalho {
+        position: fixed;
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+
+    .imagem-fundo {
+        display: flex;
+        justify-content: center;
+        height: 430px;
+    }
 }
