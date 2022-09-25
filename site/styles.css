@@ -3,12 +3,12 @@
 /* Cabeçalho */
 
 .cabeçalho {
-    z-index: 1;
+    z-index: 2;
     position: fixed;
     box-sizing: border-box;
     width: 100%;
     font-size: 20px;
-    background-color: rgba(0, 0, 0, 0.721);
+    background-color: #000000b8;
 
 }
 
@@ -40,15 +40,18 @@
     font-size: large !important;
 }
 
-.imagem-fundo {
+/* .imagem-fundo {
     height: 100vh;
     width: 100%;
 
-}
+} */
+
+
 
 /* sessão principal */
 
 .sessao-principal {
+
     justify-content: center;
     /* background-color: #4c4c4c; */
     background-color: #000000;
