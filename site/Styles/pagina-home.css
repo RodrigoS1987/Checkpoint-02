@@ -40,13 +40,22 @@
     font-size: large !important;
 }
 
-/* .imagem-fundo {
+
+
+/* .fundo-carosel{
+
     height: 100vh;
-    width: 100%;
 
+}
+.fundo-carosel .carousel, .fundo-carosel .carousel-item, .fundo-carosel .carousel-item img{
+    height: 100%;
+
+}
+.fundo-carosel .carousel-item img{
+
+    object-fit: cover;
+    object-position: left;
 } */
-
-
 
 /* sessão principal */
 
